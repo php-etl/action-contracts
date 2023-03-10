@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kiboko\\Contract\\Pipeline\\": "src/"
+            "Kiboko\\Contract\\Action\\": "src/"
         }
     },
     "config": {
