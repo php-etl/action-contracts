@@ -10,5 +10,5 @@ interface ExecutingActionInterface
         ActionInterface $action,
         RejectionInterface $rejection,
         StateInterface $state
-    ): ExecutingActionInterface;
+    ): self;
 }
