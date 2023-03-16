@@ -8,7 +8,6 @@ interface ExecutingActionInterface
 {
     public function execute(
         ActionInterface $action,
-        RejectionInterface $rejection,
-        StateInterface $state
+        StateInterface $state,
     ): self;
 }

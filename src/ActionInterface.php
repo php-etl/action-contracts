@@ -6,5 +6,5 @@ namespace Kiboko\Contract\Action;
 
 interface ActionInterface
 {
-    public function execute(): iterable;
+    public function execute(): void;
 }
