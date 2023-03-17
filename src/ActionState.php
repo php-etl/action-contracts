@@ -24,22 +24,16 @@ final class ActionState implements StateInterface
         $this->decorated->initialize($start);
     }
 
-    public function accept(int $step = 1): void
+    public function success(int $step = 1): void
     {
         $this->metrics['accept'] += $step;
         $this->decorated->accept($step);
     }
 
-    public function reject(int $step = 1): void
+    public function failure(int $step = 1): void
     {
         $this->metrics['reject'] += $step;
         $this->decorated->reject($step);
-    }
-
-    public function error(int $step = 1): void
-    {
-        $this->metrics['error'] += $step;
-        $this->decorated->error($step);
     }
 
     public function observeAccept(): callable

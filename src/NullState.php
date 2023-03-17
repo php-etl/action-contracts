@@ -11,17 +11,12 @@ final class NullState implements StateInterface
         // NOOP
     }
 
-    public function accept(int $step = 1): void
+    public function success(int $step = 1): void
     {
         // NOOP
     }
 
-    public function reject(int $step = 1): void
-    {
-        // NOOP
-    }
-
-    public function error(int $step = 1): void
+    public function failure(int $step = 1): void
     {
         // NOOP
     }
