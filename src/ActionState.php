@@ -9,7 +9,7 @@ final class ActionState implements StateInterface
     private array $metrics = [];
 
     public function __construct(
-        private StateInterface $decorated,
+        private readonly StateInterface $decorated,
     ) {
     }
 
