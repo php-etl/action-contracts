@@ -6,6 +6,7 @@ namespace Kiboko\Contract\Action;
 
 final class ActionState implements StateInterface
 {
+    /** @var array<string, int> */
     private array $metrics = [];
 
     public function __construct(
