@@ -65,16 +65,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.x-dev",
+            "version": "1.11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9d60b130c6bd39bbef5a6ae5d4017271983365c6"
+                "reference": "e054977cf43eb28826df5f90b6f3609a102cb190"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9d60b130c6bd39bbef5a6ae5d4017271983365c6",
-                "reference": "9d60b130c6bd39bbef5a6ae5d4017271983365c6",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e054977cf43eb28826df5f90b6f3609a102cb190",
+                "reference": "e054977cf43eb28826df5f90b6f3609a102cb190",
                 "shasum": ""
             },
             "require": {
@@ -104,8 +104,11 @@
                 "static analysis"
             ],
             "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.10.x"
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
             },
             "funding": [
                 {
@@ -121,7 +124,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-10T08:56:56+00:00"
+            "time": "2023-04-14T12:30:32+00:00"
         },
         {
             "name": "rector/rector",
@@ -129,17 +132,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "e27f3e5b0b1f3d287549e42a43cb943b1722bf63"
+                "reference": "9263d6613aae1debf19e9b85db8d3828bf5a9810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e27f3e5b0b1f3d287549e42a43cb943b1722bf63",
-                "reference": "e27f3e5b0b1f3d287549e42a43cb943b1722bf63",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9263d6613aae1debf19e9b85db8d3828bf5a9810",
+                "reference": "9263d6613aae1debf19e9b85db8d3828bf5a9810",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.10.1"
+                "phpstan/phpstan": "^1.10.13"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -183,7 +186,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-09T22:50:19+00:00"
+            "time": "2023-04-14T08:11:59+00:00"
         }
     ],
     "aliases": [],
