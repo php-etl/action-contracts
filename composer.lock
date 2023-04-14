@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c965867121ef286ba0b759aced828189",
+    "content-hash": "448e63423902cb6a249f9794183de37e",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
@@ -12,25 +12,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
-                "reference": "ba73a3bcedbd20e60f0058c11bfffd7c314d412b"
+                "reference": "e96726f9b89dea7308482fa6c2ce4db0757960ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/ba73a3bcedbd20e60f0058c11bfffd7c314d412b",
-                "reference": "ba73a3bcedbd20e60f0058c11bfffd7c314d412b",
+                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/e96726f9b89dea7308482fa6c2ce4db0757960ce",
+                "reference": "e96726f9b89dea7308482fa6c2ce4db0757960ce",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0"
+                "php": "^8.2"
             },
             "require-dev": {
-                "phpstan/phpstan": "0.12.x-dev"
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^1.10",
+                "rector/rector": "^0.15"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.1.x-dev"
+                    "dev-main": "0.2.x-dev"
                 }
             },
             "autoload": {
@@ -55,9 +57,9 @@
             "description": "This library describes contracts for the data-interchange buckets.",
             "support": {
                 "issues": "https://github.com/php-etl/bucket-contracts/issues",
-                "source": "https://github.com/php-etl/bucket-contracts/tree/main"
+                "source": "https://github.com/php-etl/bucket-contracts/tree/v0.2.0"
             },
-            "time": "2022-05-16T19:37:24+00:00"
+            "time": "2023-04-03T12:42:10+00:00"
         }
     ],
     "packages-dev": [
