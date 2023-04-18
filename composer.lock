@@ -69,12 +69,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e054977cf43eb28826df5f90b6f3609a102cb190"
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e054977cf43eb28826df5f90b6f3609a102cb190",
-                "reference": "e054977cf43eb28826df5f90b6f3609a102cb190",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fa55e8b4d1857d05e160004d686baca2077452b9",
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9",
                 "shasum": ""
             },
             "require": {
@@ -124,7 +124,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-14T12:30:32+00:00"
+            "time": "2023-04-18T13:25:33+00:00"
         },
         {
             "name": "rector/rector",
@@ -132,12 +132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "9263d6613aae1debf19e9b85db8d3828bf5a9810"
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9263d6613aae1debf19e9b85db8d3828bf5a9810",
-                "reference": "9263d6613aae1debf19e9b85db8d3828bf5a9810",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
                 "shasum": ""
             },
             "require": {
@@ -186,7 +186,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-14T08:11:59+00:00"
+            "time": "2023-04-18T11:12:39+00:00"
         }
     ],
     "aliases": [],
