@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Kiboko\Contract\Action;
 
-interface ActionInterface
+use Kiboko\Contract\Satellite\RunnableInterface;
+
+interface ActionInterface extends RunnableInterface
 {
     public function execute(): void;
 }
