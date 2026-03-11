@@ -18,9 +18,9 @@
         "php": "^8.4"
     },
     "require-dev": {
-        "rector/rector": "^2.0",
+        "rector/rector": "^2.3",
         "friendsofphp/php-cs-fixer": "^3.38",
-        "phpstan/phpstan": "^2.2"
+        "phpstan/phpstan": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.2.x-dev"
+            "dev-main": "0.2.x-dev",
+            "dev-next": "0.2.x-dev"
         }
     }
 }
